@@ -18,10 +18,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from onyx device
 $(call inherit-product, device/oneplus/onyx/onyx.mk)
 
+<<<<<<< HEAD:cm.mk
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
+=======
+# Enhanced NFC
+$(call inherit-product, vendor/aokp/configs/nfc_enhanced.mk)
 
-PRODUCT_NAME := cm_onyx
+# Inherit some common AOKP stuff.
+$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
+>>>>>>> 0cc9c22... AOKPify!:aokp.mk
+
+PRODUCT_NAME := aokp_onyx
 PRODUCT_DEVICE := onyx
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := OnePlus X
