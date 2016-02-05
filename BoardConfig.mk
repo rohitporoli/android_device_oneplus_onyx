@@ -40,9 +40,9 @@ TARGET_CPU_VARIANT := krait
 # Uber Optimizations
 CLANG_O3 := true
 STRICT_ALIASING := false
-KRAIT_TUNINGS := true
+KRAIT_TUNINGS := false
 GRAPHITE_OPTS := false
-ENABLE_GCCONLY := true
+ENABLE_GCCONLY := false
 
 # Kernel Toolchain
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-uber/bin
