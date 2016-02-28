@@ -184,9 +184,6 @@ on boot
     chmod 0660 /data/misc/radio/copy_complete
 
 on post-fs
-    # Reverse Keys
-    write /proc/s1302/key_rep 1
-
     # Touchscreen
     chown system radio /proc/touchpanel/double_tap_enable
     chmod 0660 /proc/touchpanel/double_tap_enable
