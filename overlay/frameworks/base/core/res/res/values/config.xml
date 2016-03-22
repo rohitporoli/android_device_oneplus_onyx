@@ -314,4 +314,8 @@
     <!-- Our modem doesn't support this query yet -->
     <string name="config_radio_access_family">GPRS|EDGE|UMTS|HSDPA|HSUPA|HSPA|LTE|HSPAP|GSM|TD_SCDMA|WCDMA|LTE_CA</string>
 
+  <!-- Control path for disabling the capacitive hardware keys, if they exist.
+         For example: "/proc/touchpanel/keypad_enable"  -->
+    <string name="config_deviceHardwareKeysFilePath" translatable="false">/proc/touchpanel/keypad_enable</string>
+
 </resources>
