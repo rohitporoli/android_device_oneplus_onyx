@@ -46,8 +46,8 @@
             64 - Volume rocker
             83 - Profile Toggle
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">64</integer>
+         config to 7. 
+    <integer name="config_deviceHardwareWakeKeys">64</integer> -->
 
     <!-- Control the behavior when the user long presses the home button.
             0 - Nothing
@@ -60,7 +60,7 @@
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java -->
     <integer name="config_longPressOnHomeBehavior">3</integer>
 
-    <integer name="config_longPressOnAppSwitchBehavior">1</integer>
+   <!--    <integer name="config_longPressOnAppSwitchBehavior">1</integer> -->
 
     <!-- Boolean indicating whether the wifi chipset has background scan support -->
     <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
@@ -168,8 +168,8 @@
     <!-- Default LED on time for notification LED in milliseconds. -->
     <integer name="config_defaultNotificationLedOn">2000</integer>
 
-    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option 
+    <bool name="config_intrusiveBatteryLed">true</bool> -->
 
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
@@ -243,12 +243,12 @@
     <color name="config_defaultNotificationColor">#ffffffff</color>
 
     <!-- Does the notification LED support multiple colors?
-         Used to decide if the user can change the colors -->
-    <bool name="config_multiColorNotificationLed">true</bool>
+         Used to decide if the user can change the colors 
+    <bool name="config_multiColorNotificationLed">true</bool> -->
 
     <!-- Does the battery LED support multiple colors?
-         Used to decide if the user can change the colors -->
-    <bool name="config_multiColorBatteryLed">true</bool>
+         Used to decide if the user can change the colors 
+    <bool name="config_multiColorBatteryLed">true</bool> -->
 
     <!-- Base "touch slop" value used by ViewConfiguration as a
          movement threshold where scrolling should begin. -->
