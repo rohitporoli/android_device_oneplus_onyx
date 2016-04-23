@@ -1,18 +1,27 @@
 [
   {
-    "repository":  "android_kernel_oneplus_onyx",
-    "target_path": "kernel/oneplus/onyx"
-  },
-  {
-    "repository": "android_device_oppo_common",
+    "remote": "cm",
+    "repository":  "device_oppo_common",
     "target_path": "device/oppo/common"
   },
   {
+    "remote": "cm",
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common"
+  },
+  {
+    "remote": "cm",
     "repository": "android_external_sony_boringssl-compat",
     "target_path": "external/sony/boringssl-compat"
   },
   {
+    "remote": "cm",
     "repository": "android_external_stlport",
     "target_path": "external/stlport"
+  },
+  {
+    "remote": "cm",
+    "repository":  "android_kernel_oneplus_onyx",
+    "target_path": "kernel/oneplus/onyx"
   }
 ]
