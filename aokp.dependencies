@@ -1,7 +1,7 @@
 [
   {
     "remote": "cm",
-    "repository":  "device_oppo_common",
+    "repository":  "android_device_oppo_common",
     "target_path": "device/oppo/common"
   },
   {
