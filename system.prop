@@ -7,6 +7,13 @@ ro.product.device=onyx
 ro.build.description=OnePlus
 ro.build.fingerprint=OnePlus/OnePlus/OnePlus:5.1.1/LMY47V/1441677661:user/release-keys
 
+# ADB
+ro.adb.secure=0
+ro.secure=0
+ro.allow.mock.location=0
+ro.debuggable=1
+ro.zygote=zygote32
+
 # RIL
 rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
