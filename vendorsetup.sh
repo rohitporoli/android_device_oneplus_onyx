@@ -1,0 +1,3 @@
+add_lunch_combo turbo_onyx-user
+add_lunch_combo turbo_onyx-userdebug
+add_lunch_combo turbo_onyx-eng
