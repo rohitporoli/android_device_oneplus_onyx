@@ -33,3 +33,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BRAND := OnePlus
 TARGET_VENDOR := oneplus
 TARGET_VENDOR_PRODUCT_NAME := onyx
+
+# FMRadio
+PRODUCT_PACKAGES += \
+    FMRadio
