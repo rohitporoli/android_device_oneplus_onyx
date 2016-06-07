@@ -16,8 +16,6 @@
 
 package com.cyanogenmod.doze.onyx;
 
-import org.cyanogenmod.internal.util.ScreenType;
-
 import android.app.ActionBar;
 import android.os.Bundle;
 import android.preference.Preference;
@@ -72,10 +70,8 @@ public class WakeUpGestureSettings extends PreferenceActivity {
     protected void onResume() {
         super.onResume();
 
-        // If running on a phone, remove padding around the listview
-        if (!ScreenType.isTablet(this)) {
-            getListView().setPadding(0, 0, 0, 0);
-        }
+      // Remove padding
+       getListView().setPadding(0, 0, 0, 0);
     }
 
     private boolean enableDoze(boolean enable) {
