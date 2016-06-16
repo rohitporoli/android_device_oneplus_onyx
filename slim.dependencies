@@ -3,5 +3,15 @@
     "repository": "SlimRoms/device_oppo_common",
     "target_path": "device/oppo/common",
     "branch": "mm6.0"
+  },
+  {
+    "repository": "SlimRoms/kernel_oneplus_onyx",
+    "target_path": "kernel/oneplus/onyx",
+    "branch": "mm6.0"
+  },
+  {
+    "repository": "SlimRoms/android_external_stlport",
+    "target_path": "external/stlport",
+    "branch": "mm6.0"
   }
 ]
