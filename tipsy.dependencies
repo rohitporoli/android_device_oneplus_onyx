@@ -1,6 +1,6 @@
 [
   {
-    "repository": "SlimRoms/device_oppo_common",
+    "repository": "TipsyOs-Devices/device_oppo_common",
     "target_path": "device/oppo/common",
     "branch": "mm6.0"
   },
@@ -8,6 +8,16 @@
     "repository": "SlimRoms/kernel_oneplus_onyx",
     "target_path": "kernel/oneplus/onyx",
     "branch": "mm6.0"
+  },
+  {
+    "repository": "BigTopKrazies/vendor_oneplus",
+    "target_path": "vendor/oneplus",
+    "branch": "mm6.0"
+  },
+  {
+    "repository":  "SlimRoms/android_vendor_qcom_opensource_dataservices",
+    "target_path": "vendor/qcom/opensource/dataservices",
+    "branch":      "mm6.0"
   },
   {
     "repository": "SlimRoms/android_external_stlport",
