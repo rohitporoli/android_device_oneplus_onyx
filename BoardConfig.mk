@@ -157,6 +157,9 @@ BOARD_GLOBAL_CFLAGS+= -DUSE_RIL_VERSION_11
 # RPC
 TARGET_NO_RPC := true
 
+# Legacy Blobs
+TARGET_NEEDS_TEXT_RELOCATIONS := true
+
 # SELinux
 #include device/qcom/sepolicy/sepolicy.mk
 
