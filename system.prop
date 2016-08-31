@@ -1,6 +1,9 @@
 #
 # system.prop for OnePlus X
 #
+persist.service.adb.enable=1                                                    
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
 
 ro.build.product=OnePlus
 ro.product.device=OnePlus
