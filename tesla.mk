@@ -25,6 +25,8 @@ $(call inherit-product, vendor/tesla/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/oneplus/onyx/onyx-vendor.mk)
 
 PRODUCT_NAME := tesla_onyx
+DISABLE_SLIM_FRAMEWORK := true
+
 PRODUCT_DEVICE := onyx
 PRODUCT_MANUFACTURER := OnePlus
 
