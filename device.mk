@@ -225,4 +225,4 @@ PRODUCT_PACKAGES += \
     wcnss_service
 
 # Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
+#$(call inherit-product, device/oppo/common/common.mk)
