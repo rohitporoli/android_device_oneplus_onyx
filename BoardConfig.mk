@@ -60,7 +60,7 @@ AUDIO_FEATURE_ENABLED_HWDEP_CAL := true
 AUDIO_FEATURE_ENABLED_LOW_LATENCY_CAPTURE := true
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 BOARD_USES_ALSA_AUDIO := true
-USE_CUSTOM_AUDIO_POLICY := 1
+USE_CUSTOM_AUDIO_POLICY := 0
 
 # Bluetooth
 BLUETOOTH_HCI_USE_MCT := true
@@ -158,7 +158,7 @@ TARGET_RIL_VARIANT := caf
 TARGET_NO_RPC := true
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+#include device/qcom/sepolicy/sepolicy.mk
 
 #BOARD_SEPOLICY_DIRS += \
 #    $(PLATFORM_PATH)/sepolicy
