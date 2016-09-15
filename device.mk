@@ -105,8 +105,7 @@ PRODUCT_PACKAGES += \
     camera.msm8974 \
     libboringssl-compat \
     libstlport \
-    libshim_camera \
-    Snap
+    libshim_camera
 
 # Charger
 PRODUCT_PACKAGES += \
