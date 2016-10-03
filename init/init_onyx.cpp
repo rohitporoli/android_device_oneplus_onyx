@@ -25,7 +25,9 @@
    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+#include <cutils/properties.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 #include "vendor_init.h"
 #include "property_service.h"
@@ -41,11 +43,11 @@ void vendor_load_properties()
     char rf_version[PROP_VALUE_MAX];
     int rc;
 
-    rc = property_get("ro.board.platform", platform);
+    rc = property_get("ro.board.platform", platform, NULL);
     if (!rc || !ISMATCH(platform, ANDROID_TARGET))
         return;
 
-    property_get("ro.boot.rf_version", rf_version);
+    property_get("ro.boot.rf_version", rf_version, NULL);
 
     if (strstr(rf_version, "101")) {
         /* China */
@@ -64,6 +66,6 @@ void vendor_load_properties()
         property_set("ro.product.model", "ONE E1000");
         property_set("ro.rf_version", "TDD_FDD_ALL_OPTR");
     }
-    property_get("ro.product.device", device);
+    property_get("ro.product.device", device, NULL);
     INFO("Found rf_version : %s setting build properties for %s device\n", rf_version, device);
 }
