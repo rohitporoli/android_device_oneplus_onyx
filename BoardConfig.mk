@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+TARGET_NEEDS_TEXT_RELOCATIONS := true
+
 # inherit from Oppo common
 -include device/oppo/common/BoardConfigCommon.mk
 
