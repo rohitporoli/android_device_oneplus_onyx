@@ -15,5 +15,5 @@
 -->
 
 <resources>
-    <bool name="config_enabled_tdscdma" translatable="false">true</bool>
+    <!-- bool name="config_enabled_tdscdma" translatable="false">true</bool> -->
 </resources>
