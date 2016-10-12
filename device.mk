@@ -245,7 +245,8 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     Camera2 \
     Messaging \
-    Gallery2
+    Gallery2 \
+    Stk
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
