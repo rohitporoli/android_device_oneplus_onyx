@@ -242,7 +242,10 @@ PRODUCT_BOOT_JARS += telephony-ext
 
 # Additional Packages
 PRODUCT_PACKAGES += \
-    Launcher3
+    Launcher3 \
+    Camera2 \
+    Messaging \
+    Gallery2
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
