@@ -249,4 +249,4 @@ PRODUCT_PACKAGES += \
     Stk
 
 # Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
+# $(call inherit-product, device/oppo/common/common.mk)
