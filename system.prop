@@ -41,6 +41,7 @@ audio.offload.pcm.24bit.enable=true
 # Bluetooth
 bluetooth.hfp.client=1
 ro.bluetooth.alwaysbleon=true
+qcom.bluetooth.soc=smd
 
 # Camera
 persist.camera.cpp.duplication=false
