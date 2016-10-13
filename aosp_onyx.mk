@@ -29,6 +29,8 @@ $(call inherit-product-if-exists, vendor/oneplus/onyx/onyx-vendor.mk)
 
 DISABLE_SLIM_FRAMEWORK := true
 
+PRODUCT_NAME := aosp_onyx
+
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BRAND := OnePlus
