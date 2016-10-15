@@ -172,10 +172,10 @@ BOARD_GLOBAL_CFLAGS += -DCOMPAT_SENSORS_M
 TARGET_NO_RPC := true
 
 # SELinux
-#include device/qcom/sepolicy/sepolicy.mk
+include device/qcom/sepolicy/sepolicy.mk
 
 #BOARD_SEPOLICY_DIRS += \
-#    $(PLATFORM_PATH)/sepolicy
+    $(PLATFORM_PATH)/sepolicy
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
