@@ -75,6 +75,10 @@ drm.service.enabled=true
 # QMI
 persist.data.qmi.adb_logmask=0
 
+# Media
+media.stagefright.legacyencoder=true
+media.stagefright.less-secure=true
+
 # Sensors
 ro.qc.sdk.sensors.gestures=true
 ro.qc.sdk.gestures.camera=false
