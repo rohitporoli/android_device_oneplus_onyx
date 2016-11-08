@@ -27,6 +27,7 @@ $(call inherit-product-if-exists, vendor/oneplus/onyx/onyx-vendor.mk)
 PRODUCT_NAME := du_onyx
 PRODUCT_DEVICE := onyx
 PRODUCT_MANUFACTURER := OnePlus
+PRODUCT_MODEL := X
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
