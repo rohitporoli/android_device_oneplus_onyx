@@ -20,6 +20,8 @@
 
 PLATFORM_PATH := device/oneplus/onyx
 
+TARGET_USE_CM_RAMDISK := true
+
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(PLATFORM_PATH)/board-info.txt
 
