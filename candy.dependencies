@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "CandyDevices/device_oppo_common",
+    "target_path": "device/oppo/common",
+    "branch": "c7.1"
+  },
+  {
+    "repository": "CandyDevices/kernel_oneplus_onyx",
+    "target_path": "kernel/oneplus/onyx",
+    "branch": "c7.1.1"
+  },
+  {
+    "repository": "CandyDevices/vendor/oneplus/onyx",
+    "target_path": "vendor/oneplus/onyx",
+    "branch": "c7.1.1"
+  }
+]
