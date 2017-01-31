@@ -36,11 +36,11 @@ on enable-low-power
     write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor "interactive"
     write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor "interactive"
     write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor "interactive"
-    write /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay "10000 1800000:20000"
+    write /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay "19000 1400000:39000 1700000:19000"
     write /sys/devices/system/cpu/cpufreq/interactive/go_hispeed_load 90
     write /sys/devices/system/cpu/cpufreq/interactive/hispeed_freq 1190400
     write /sys/devices/system/cpu/cpufreq/interactive/io_is_busy 1
-    write /sys/devices/system/cpu/cpufreq/interactive/target_loads "85 1500000:90"
+    write /sys/devices/system/cpu/cpufreq/interactive/target_loads "85 1500000:90 1800000:70"
     write /sys/devices/system/cpu/cpufreq/interactive/min_sample_time 20000
     write /sys/devices/system/cpu/cpufreq/interactive/sampling_down_factor 50000
     write /sys/devices/system/cpu/cpufreq/interactive/timer_rate 20000
@@ -107,5 +107,7 @@ on property:recovery.perf.mode=0
 on property:dev.bootcomplete=1
     rm /data/system/perfd/default_values
     write /sys/block/mmcblk0/bdi/read_ahead_kb 512
+    write /sys/devices/system/cpu/cpufreq/interactive/above_hispeed_delay "10000 1800000:20000"
+    write /sys/devices/system/cpu/cpufreq/interactive/target_loads "85 1500000:90"
     setprop sys.io.scheduler "bfq"
     start mpdecision
