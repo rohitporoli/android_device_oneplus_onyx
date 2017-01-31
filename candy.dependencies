@@ -10,8 +10,28 @@
     "branch": "c7.1.1"
   },
   {
-    "repository": "CandyDevices/vendor/oneplus/onyx",
-    "target_path": "vendor/oneplus/onyx",
-    "branch": "c7.1.1"
+    "repository": "TheMuppets/proprietary_vendor_oneplus",
+    "target_path": "vendor/oneplus",
+    "branch": "cm-14.1"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_qcom_binaries",
+    "target_path": "vendor/qcom/binaries",
+    "branch": "cm-14.1"
+  },
+  {
+    "repository":  "LineageOs/android_vendor_qcom_opensource_dataservices",
+    "target_path": "vendor/qcom/opensource/dataservices",
+    "branch":      "cm-14.1"
+  },
+  {
+    "repository": "LineageOS/android_external_stlport",
+    "target_path": "external/stlport",
+    "branch": "cm-14.1"
+  },
+  {
+    "repository": "LineageOS/android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat",
+    "branch": "cm-14.1"
   }
 ]
