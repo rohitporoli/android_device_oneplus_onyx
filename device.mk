@@ -235,5 +235,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     wcnss_service
 
+# Additional Packages
+  PRODUCT_PACKAGES += \
+    Camera2  
+
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
