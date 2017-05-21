@@ -239,7 +239,8 @@ PRODUCT_PACKAGES += \
   PRODUCT_PACKAGES += \
     Camera2  \
     messaging \
-    LatinIME
+    LatinIME \
+    Stk
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
