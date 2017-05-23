@@ -22,6 +22,8 @@ PLATFORM_PATH := device/oneplus/onyx
 
 TARGET_USE_CM_RAMDISK := true
 
+TARGET_PROVIDES_POWERHAL := true
+
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(PLATFORM_PATH)/board-info.txt
 
