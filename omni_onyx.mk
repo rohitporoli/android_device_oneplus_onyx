@@ -18,13 +18,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from onyx device
 $(call inherit-product, device/oneplus/onyx/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common stuff.
+$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Call the proprietary setup
 $(call inherit-product-if-exists, vendor/oneplus/onyx/onyx-vendor.mk)
 
-PRODUCT_NAME := lineage_onyx
+PRODUCT_NAME := omni_onyx
 PRODUCT_DEVICE := onyx
 PRODUCT_MANUFACTURER := OnePlus
 
